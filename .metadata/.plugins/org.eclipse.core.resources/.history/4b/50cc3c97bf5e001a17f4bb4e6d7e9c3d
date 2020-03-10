@@ -1,0 +1,11 @@
+package com.springbook.biz.common;
+
+import java.sql.Connection;
+
+public class JDBCUtil {
+	public static Connection getConnection() {
+		try {
+			Class.forName(className)
+		}
+	}
+}
