@@ -20,5 +20,14 @@
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="com.springbook.biz.board.impl.BoardServiceImpl"/>
+<fullyQualifiedTypeName name="com.springbook.biz.common.LogAdvice"/>
+<fullyQualifiedTypeName name="com.springbook.biz.common.Log4jAdvice"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
+<fullyQualifiedTypeName name="java.lang.Throwable"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.JoinPoint"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="com.springbook.biz.user.UserVO"/>
 </qualifiedTypeNameHistroy>

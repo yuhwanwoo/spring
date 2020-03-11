@@ -11,9 +11,18 @@
 	<context:component-scan base-package="com.springbook.biz">
 	</context:component-scan>
 
-	<bean id="afterThrowing" class="com.springbook.biz.common.AfterThrowingAdvice"></bean>
+	<!-- <bean id="afterThrowing" class="com.springbook.biz.common.AfterThrowingAdvice"></bean>
 	<bean id="after" class="com.springbook.biz.common.AfterAdvice"></bean>
+	 -->
+	<bean id="afterReturning" class="com.springbook.biz.common.AfterReturningAdvice"></bean>
 	<aop:config>
+		<aop:pointcut expression="execution(* com.springbook.biz..*Impl.get*(..))" id="getPointcut"/>
+		<aop:aspect ref="afterReturning">
+			<aop:after-returning pointcut-ref="getPointcut" method="afterLog" returning="returnObj"/>
+		</aop:aspect>
+	</aop:config>
+	
+	<!-- <aop:config>
 		<aop:pointcut expression="execution(* com.springbook.biz..*Impl.*(..))" id="allPointcut"/>
 		<aop:pointcut expression="execution(* com.springbook.biz..*Impl.get*(..))" id="getPointcut"/>
 		<aop:aspect ref="afterThrowing">
@@ -40,13 +49,6 @@
 		<aop:aspect ref="before">
 			<aop:before pointcut-ref="allPointcut" method="beforeLog"/>
 		</aop:aspect>
-	</aop:config>
-
-<!-- 
-	<bean id="userService" class="com.springbook.biz.user.impl.UserServiceImpl">
-		<property name="userDAO" ref="userDAO"/>
-	</bean>
-	
-	<bean id="userDAO" class="com.springbook.biz.user.impl.UserDAO"/> -->
+	</aop:config> -->
 
 </beans>
