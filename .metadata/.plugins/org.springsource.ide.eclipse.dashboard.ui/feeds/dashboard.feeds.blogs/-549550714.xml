@@ -5,7 +5,51 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-03-11T21:11:13Z</updated>
+  <updated>2020-03-13T00:00:45Z</updated>
+  <entry>
+    <title>A Bootiful Podcast: John Hawley on OSS at VMWare, Security, and more</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/03/13/a-bootiful-podcast-john-hawley-on-oss-at-vmware-security-and-more" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-03-13:3998</id>
+    <updated>2020-03-13T00:00:45Z</updated>
+    <content type="html">&lt;iframe title="John Hawley on OSS at VMWare, Python, Security, and more. Plus: Announcing Spring Live!" src="https://www.podbean.com/media/player/ed932-d6191d?from=usersite&amp;vjs=1&amp;skin=1&amp;fonts=Helvetica&amp;auto=0&amp;download=1" height="315" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player"&gt;&lt;/iframe&gt;
+&lt;p&gt;Hi, Spring fans! In this installment, we talk to John Hawley (@warty9), a Linux kernel hacker, an open-source enthusiast and someone who&amp;rsquo;s able to answer questions about open-source at VMWare.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The &lt;a href="https://connect.tanzu.vmware.com/Spring_Live_Q221.html"&gt;Spring Live registration page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;My blog announcing &lt;a href="https://spring.io/blog/2020/03/11/register-now-for-spring-live-an-interactive-virtual-24-hour-long-conference-for-you-spring-fans"&gt;Spring Live&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/warty9"&gt;John Hawley (@warty9)&lt;/a&gt; on Twitter&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=mr-7kGy8Yao"&gt;Spring Tips: Java 14 (Can Your Java Do This?)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blogs.vmware.com/opensource/"&gt;the VMWare Open-Source Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot 2.3.0.M3 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/03/12/spring-boot-2-3-0-m3-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2020-03-12:3997</id>
+    <updated>2020-03-12T18:05:40Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone that contributed, I am pleased to announce that the third milestone of Spring Boot 2.3 has been released and is available from &lt;a href="https://repo.spring.io/milestone/"&gt;our milestone repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release closes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.3.0.M3"&gt;89 issues and pull requests&lt;/a&gt;. Thanks to all those who have contributed.&lt;/p&gt;
+&lt;p&gt;Highlights of this milestone include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Support for gracefully shutting down the embedded web server&lt;/li&gt;
+  &lt;li&gt;Support for customizing the layers when building a layered jar with Maven&lt;/li&gt;
+  &lt;li&gt;Support for R2DBC&lt;/li&gt;
+  &lt;li&gt;Auto-configuration for Spring Integration&amp;rsquo;s RSocket support&lt;/li&gt;
+  &lt;li&gt;Numerous dependency upgrades&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For a complete list of changes and upgrade instructions, please see the &lt;a href="https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.3.0-M3-Release-Notes"&gt;Spring Boot 2.3 Release Notes&lt;/a&gt; on the wiki and the &lt;a href="http://docs.spring.io/spring-boot/docs/2.3.0.M3/reference/html/"&gt;updated reference documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you want to get started with 2.3 and try out the new features, you can bootstrap a new project on &lt;a href="https://start.spring.io"&gt;https://start.spring.io&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://projects.spring.io/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/2.3.0.M3/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Integration 5.3 Milestone 3 Available</title>
     <link rel="alternate" href="https://spring.io/blog/2020/03/11/spring-integration-5-3-milestone-3-available" />
@@ -577,12 +621,13 @@ shell:&amp;gt;
       <name>Olga Maciaszek-Sharma</name>
     </author>
     <id>tag:spring.io,2020-03-05:3986</id>
-    <updated>2020-03-05T17:47:36Z</updated>
+    <updated>2020-03-05T17:47:00Z</updated>
     <content type="html">&lt;p&gt;On behalf of the community, I am pleased to announce that the Service Release 3 (SR3) of the &lt;a href="https://cloud.spring.io"&gt;Spring Cloud Hoxton&lt;/a&gt; Release Train is available today. The release can be found in &lt;a href="https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dependencies/Hoxton.SR3/"&gt;Maven Central&lt;/a&gt;. You can check out the Hoxton &lt;a href="https://github.com/spring-projects/spring-cloud/wiki/Spring-Cloud-Hoxton-Release-Notes"&gt;release notes for more information&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#important-security-advisory" class="anchor" name="important-security-advisory"&gt;&lt;/a&gt;Important Security Advisory&lt;/h2&gt;
 &lt;p&gt;Spring Cloud Config contains fixes for &lt;a href="https://pivotal.io/security/cve-2020-5405"&gt;CVE-2020-5405&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#notable-changes-in-the-hoxton-release-train" class="anchor" name="notable-changes-in-the-hoxton-release-train"&gt;&lt;/a&gt;Notable Changes in the Hoxton Release Train&lt;/h2&gt;
 &lt;p&gt;This milestone was primarily a bugfix release.&lt;/p&gt;
 &lt;p&gt;Please see the Hoxton.SR3 &lt;a href="https://github.com/orgs/spring-cloud/projects/36"&gt;Github Project&lt;/a&gt; for all issues closed.&lt;/p&gt;
 &lt;p&gt;This milestone release is built with Spring Boot 2.2.5.RELEASE.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-config" class="anchor" name="spring-cloud-config"&gt;&lt;/a&gt;Spring Cloud Config&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: &lt;em&gt;The writable &lt;code&gt;env&lt;/code&gt; endpoint has been disabled by default. To re-enable this please set &lt;code&gt;management.endpoint.env.post.enabled=true&lt;/code&gt;. Please make sure this endpoint is not publicly available.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Possibility to override &lt;code&gt;ConfigTokenProvider&lt;/code&gt; was added. Performance issues with &lt;code&gt;KeyStoreTestEncryptorLocator&lt;/code&gt; were fixed.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-contract" class="anchor" name="spring-cloud-contract"&gt;&lt;/a&gt;Spring Cloud Contract&lt;/h3&gt;
 &lt;p&gt;Support added for Spring Cloud LoadBalancer in StubRunner. &lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-circuitbreaker" class="anchor" name="spring-cloud-circuitbreaker"&gt;&lt;/a&gt;Spring Cloud CircuitBreaker&lt;/h3&gt;
 &lt;p&gt;Support added for creating and customizing circuit breakers in advance.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-commons" class="anchor" name="spring-cloud-commons"&gt;&lt;/a&gt;Spring Cloud Commons&lt;/h3&gt;
@@ -1176,40 +1221,6 @@ Data:&#xD;
 &lt;p&gt;This version of Spring Boot includes a dependency upgrade to Reactor Netty 0.9.5. It contains fixes for &lt;a href="https://pivotal.io/security/cve-2020-5403"&gt;CVE-2020-5403&lt;/a&gt; and &lt;a href="https://pivotal.io/security/cve-2020-5404"&gt;CVE-2020-5404&lt;/a&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
 &lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/2.2.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Boot 2.1.13 released</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/02/27/spring-boot-2-1-13-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Andy Wilkinson</name>
-    </author>
-    <id>tag:spring.io,2020-02-27:3974</id>
-    <updated>2020-02-27T18:02:07Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring Boot 2.1.13 has been released and is now available from &lt;a href="https://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central.&lt;/p&gt;
-&lt;p&gt;This release includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.1.13.RELEASE"&gt;34 bug fixes, documentation improvements, and dependency upgrades&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;&lt;h3&gt;&lt;a href="#important-security-advisory" class="anchor" name="important-security-advisory"&gt;&lt;/a&gt;Important Security Advisory&lt;/h3&gt;
-&lt;p&gt;This version of Spring Boot includes a dependency upgrade to Reactor Netty 0.8.16. It contains a fix for &lt;a href="https://pivotal.io/security/cve-2020-5404"&gt;CVE-2020-5404&lt;/a&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
-&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/2.1.13.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>CVE Reports Published for Reactor Netty</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/02/27/cve-reports-published-for-reactor-netty" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Rossen Stoyanchev</name>
-    </author>
-    <id>tag:spring.io,2020-02-27:3976</id>
-    <updated>2020-02-27T17:48:11Z</updated>
-    <content type="html">&lt;p&gt;The following CVE reports were published today:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://pivotal.io/security/cve-2020-5403"&gt;CVE-2020-5403&lt;/a&gt; affecting Reactor Netty &lt;code&gt;HttpServer&lt;/code&gt; 0.9.3 and 0.9.4.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://pivotal.io/security/cve-2020-5404"&gt;CVE-2020-5404&lt;/a&gt; affecting Reactor Netty &lt;code&gt;HttpClient&lt;/code&gt; for all 0.8.x and 0.9.x versions in applications where the automatic following of redirects is explicitly enabled.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The fixes are in Reactor Netty 0.9.5 and 0.8.16. If using the reactor-bom, you can upgrade to Dysprosium-SR5 or Californium-SR16.&lt;/p&gt;
-&lt;p&gt;Reactor Netty is used internally in many frameworks including Spring WebFlux and its &lt;code&gt;WebClient&lt;/code&gt;. If you have a Spring Boot application, you can upgrade to Spring Boot 2.2.5 or 2.1.13. &lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

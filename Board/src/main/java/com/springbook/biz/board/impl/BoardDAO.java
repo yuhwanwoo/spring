@@ -1,4 +1,4 @@
-package com.springbook.biz.board.impl;
+/*package com.springbook.biz.board.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -137,3 +137,4 @@ public class BoardDAO {
 
 
 
+*/
