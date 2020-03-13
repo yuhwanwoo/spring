@@ -1,0 +1,3 @@
+127.0.0.1 - - [12/Mar/2020:21:29:15 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:21:29:17 +0900] "GET /biz/WEB-INF/classes/com/springbook/biz/board/impl/BoardServiceImpl.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [12/Mar/2020:21:29:17 +0900] "GET /favicon.ico HTTP/1.1" 404 761

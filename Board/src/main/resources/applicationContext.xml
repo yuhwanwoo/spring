@@ -11,9 +11,15 @@
 	<context:component-scan base-package="com.springbook.biz">
 	</context:component-scan>
 
+	<aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+
+
+
+
 	<!-- <bean id="afterThrowing" class="com.springbook.biz.common.AfterThrowingAdvice"></bean>
 	<bean id="after" class="com.springbook.biz.common.AfterAdvice"></bean>
-	 -->
+	
 	<bean id="afterReturning" class="com.springbook.biz.common.AfterReturningAdvice"></bean>
 	<aop:config>
 		<aop:pointcut expression="execution(* com.springbook.biz..*Impl.get*(..))" id="getPointcut"/>
@@ -22,18 +28,18 @@
 		</aop:aspect>
 	</aop:config>
 	
-	<!-- <aop:config>
+	<aop:config>
 		<aop:pointcut expression="execution(* com.springbook.biz..*Impl.*(..))" id="allPointcut"/>
 		<aop:pointcut expression="execution(* com.springbook.biz..*Impl.get*(..))" id="getPointcut"/>
 		<aop:aspect ref="afterThrowing">
-			<aop:after-throwing pointcut-ref="allPointcut" method="exceptionLog"/>
+			<aop:after-throwing pointcut-ref="allPointcut" method="exceptionLog" throwing="exceptObj"/>
 		</aop:aspect>
 		<aop:aspect ref="after">
 			<aop:after pointcut-ref="allPointcut" method="finallyLog"/>
 		</aop:aspect>
-	</aop:config>
+	</aop:config> -->
 	
-	<bean id="around" class="com.springbook.biz.common.AroundAdvice"/>
+	<!-- <bean id="around" class="com.springbook.biz.common.AroundAdvice"/>
 	
 	<aop:config>
 		<aop:pointcut expression="execution(* com.springbook.biz..*Impl.*(..))" id="allPointcut"/>
@@ -41,14 +47,14 @@
 		<aop:aspect ref="around">
 			<aop:around pointcut-ref="allPointcut" method="aroundLog"/>
 		</aop:aspect>
-	</aop:config>
+	</aop:config> -->
 	
-	<bean id="before" class="com.springbook.biz.common.BeforeAdvice"/>
+	<!-- <bean id="before" class="com.springbook.biz.common.BeforeAdvice"/>
 	<aop:config>
 		<aop:pointcut expression="execution(* com.springbook.biz..*Impl.*(..))" id="allPointcut"/>
 		<aop:aspect ref="before">
 			<aop:before pointcut-ref="allPointcut" method="beforeLog"/>
 		</aop:aspect>
-	</aop:config> -->
+	</aop:config>  -->
 
 </beans>
