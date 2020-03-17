@@ -1,0 +1,9 @@
+127.0.0.1 - - [16/Mar/2020:13:05:47 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [16/Mar/2020:13:05:48 +0900] "GET /Board/getBoardList.jsp HTTP/1.1" 200 4305
+0:0:0:0:0:0:0:1 - - [16/Mar/2020:13:05:48 +0900] "GET /favicon.ico HTTP/1.1" 404 761
+0:0:0:0:0:0:0:1 - - [16/Mar/2020:14:19:29 +0900] "GET /Board/getBoard.jsp?seq=14 HTTP/1.1" 404 772
+0:0:0:0:0:0:0:1 - - [16/Mar/2020:17:49:14 +0900] "GET /Board/getBoard.jsp HTTP/1.1" 500 2465
+0:0:0:0:0:0:0:1 - - [16/Mar/2020:17:49:37 +0900] "GET /Board/getBoard.jsp HTTP/1.1" 500 2465
+0:0:0:0:0:0:0:1 - - [16/Mar/2020:17:56:59 +0900] "GET /Board/getBoardList.jsp HTTP/1.1" 200 4305
+0:0:0:0:0:0:0:1 - - [16/Mar/2020:17:57:03 +0900] "GET /Board/getBoard.jsp?seq=1 HTTP/1.1" 200 1310
+0:0:0:0:0:0:0:1 - - [16/Mar/2020:17:57:16 +0900] "GET /Board/getBoard.jsp?seq=19 HTTP/1.1" 200 1309
