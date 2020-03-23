@@ -44,8 +44,18 @@
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
 <fullyQualifiedTypeName name="java.lang.Process"/>
-<fullyQualifiedTypeName name="com.springbook.biz.user.UserVO"/>
-<fullyQualifiedTypeName name="com.springbook.biz.user.impl.UserDAO"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="com.springbook.biz.user.impl.UserDAO"/>
+<fullyQualifiedTypeName name="com.springbook.biz.user.UserVO"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.springbook.view.user.LoginController"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+<fullyQualifiedTypeName name="com.springbook.view.controller.HandlerMapping"/>
+<fullyQualifiedTypeName name="com.springbook.view.controller.ViewResolver"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="com.springbook.view.controller.Controller"/>
 </qualifiedTypeNameHistroy>
