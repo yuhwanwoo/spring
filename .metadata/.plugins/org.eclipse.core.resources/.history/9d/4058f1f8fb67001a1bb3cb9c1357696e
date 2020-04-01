@@ -1,8 +1,0 @@
-<%@page import="com.springbook.biz.board.impl.BoardDAO"%>
-<%@page import="com.springbook.biz.board.BoardVO" %>
-<%@page contentType="text/html; charset=UTF-8" %>
-
-<% 
-//1. 사용자 입력 정보 추출
-
-%>
