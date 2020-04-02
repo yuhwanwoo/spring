@@ -3,3 +3,6 @@
 3월 17, 2020 12:21:34.47 [9540:15584:0317/122134.478:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
 3월 17, 2020 12:21:56.90 [9540:15584:0317/122156.908:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
 3월 17, 2020 12:22:47.88 [9540:15584:0317/122247.884:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+
+4월 02, 2020 16:43:55.54 NEW SESSION
+4월 02, 2020 16:43:55.54 [25744:3496:0402/164355.528:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.sql.Date"/>
-<fullyQualifiedTypeName name="java.lang.Class"/>
-<fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="com.springbook.biz.board.BoardService"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="com.springbook.biz.common.JDBCUtil"/>
@@ -46,18 +41,23 @@
 <fullyQualifiedTypeName name="com.springbook.biz.user.UserVO"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="com.springbook.view.user.LoginController"/>
-<fullyQualifiedTypeName name="javax.servlet.ServletException"/>
-<fullyQualifiedTypeName name="com.springbook.view.controller.HandlerMapping"/>
-<fullyQualifiedTypeName name="com.springbook.view.controller.ViewResolver"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="com.springbook.view.controller.Controller"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.springbook.view.board.GetBoardListController"/>
+<fullyQualifiedTypeName name="com.springbook.view.board.GetBoardController"/>
+<fullyQualifiedTypeName name="com.springbook.view.board.InsertBoardController"/>
+<fullyQualifiedTypeName name="com.springbook.view.board.UpdateBoardController"/>
+<fullyQualifiedTypeName name="com.springbook.biz.board.BoardVO"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.springbook.biz.board.impl.BoardDAO"/>
-<fullyQualifiedTypeName name="com.springbook.biz.board.BoardVO"/>
+<fullyQualifiedTypeName name="com.springbook.view.board.DeleteBoardController"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="com.springbook.view.user.LoginController"/>
+<fullyQualifiedTypeName name="com.springbook.view.user.LogoutController"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+<fullyQualifiedTypeName name="com.springbook.view.controller.HandlerMapping"/>
+<fullyQualifiedTypeName name="com.springbook.view.controller.ViewResolver"/>
 </qualifiedTypeNameHistroy>
