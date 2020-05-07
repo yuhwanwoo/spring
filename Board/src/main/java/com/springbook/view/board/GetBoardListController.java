@@ -32,7 +32,7 @@ public class GetBoardListController implements Controller {
 		//3. 검색 결과와 화면 정보를 ModelAndView에 저장하여 리턴한다.
 		ModelAndView mav= new ModelAndView();
 		mav.addObject("boardList", boardList); //Model 정보 저장
-		mav.setViewName("getBoardList.jsp"); // View 정보 저장
+		mav.setViewName("getBoardList"); // View 정보 저장
 		return mav;
 	}
 
