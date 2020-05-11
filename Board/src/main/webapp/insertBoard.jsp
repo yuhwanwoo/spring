@@ -19,7 +19,7 @@
 	</tr>
 	<tr>
 		<td bgcolor="orange">작성자</td><td align="left">
-		<input type="text" name="write" size="10"/></td>
+		<input type="text" name="writer" size="10"/></td>
 	</tr>
 	<tr>
 		<td bgcolor="orange">내용</td><td align="left">

@@ -10,3 +10,6 @@
 5월 08, 2020 24:55:23.30 NEW SESSION
 5월 08, 2020 24:55:23.30 [2980:14228:0508/005523.308:ERROR:browser_switcher_service.cc(238)] XXX Init()
 5월 08, 2020 24:56:35.07 [3960:716:0508/005635.077:ERROR:browser_switcher_service.cc(238)] XXX Init()
+
+5월 11, 2020 21:46:48.93 NEW SESSION
+5월 11, 2020 21:46:48.93 [10952:11564:0511/214648.927:ERROR:browser_switcher_service.cc(238)] XXX Init()

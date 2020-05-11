@@ -1,0 +1,23 @@
+package com.springbook.view.board;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.springbook.biz.board.BoardVO;
+import com.springbook.biz.board.impl.BoardDAO;
+
+@Controller
+public class GetBoardController{
+
+	@Override
+	public ModelAndView getBoard(BoardVO vo,BoardDAO boardDAO,ModelAndView mav) {
+		
+		mav.addObject("board",board); //Model 정보 저장
+		mav.setViewName("getBoard"); // View 정보 저장
+		return mav;
+	}
+
+}
