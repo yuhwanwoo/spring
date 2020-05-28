@@ -67,6 +67,7 @@ public class Server {
 			String[] data=position.split("/");
 			if(data[0]!=null) {
 				MongoTest mongoTest=new MongoTest(data[3], data[5]);
+				
 			}
 			
 		} catch (IOException e) {

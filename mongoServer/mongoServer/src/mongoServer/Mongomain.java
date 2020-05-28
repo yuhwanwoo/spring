@@ -121,6 +121,7 @@ public class Mongomain {
 			if(file.exists()) {
 				file.delete();
 			}
+			
 			BufferedWriter fw=new BufferedWriter(new FileWriter("f:///mongtcsv"+".csv",true));
 			while(cursor.hasNext()) {
 				Document e=cursor.next();
@@ -139,5 +140,5 @@ public class Mongomain {
 			e1.printStackTrace();
 		}
 	
-		}
+	}
 }

@@ -1,5 +1,9 @@
 package mongoServer;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.List;
 import java.util.Set;
 
@@ -9,6 +13,7 @@ import com.mongodb.DB;
 import com.mongodb.MongoClient;
 import com.mongodb.ServerAddress;
 import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 
 public class MongoTest {
@@ -53,9 +58,46 @@ public class MongoTest {
 		
 		Document doc=new Document("speech",speech).append("sysdata", sysdate);
 		collection.insertOne(doc);
+		
+		/////////////////////////////////////////////////여기까지가 실시간 mongodb저장
+		
+		MongoCursor<Document> cursor=collection.find().iterator();
+		
+		String[] spl=null;
+		MongoCollection<Document> collection1=database.getCollection("FilterData");
+		cursor=collection.find().iterator();
+		//Document doc;
+		collection1.drop();
+		while(cursor.hasNext()) {
+			spl=cursor.next().toJson().split("\"");
+			doc=new Document("speech_filter",spl[9]);
+			collection1.insertOne(doc);
+		}
+		
+		cursor=collection1.find().iterator();
+		try {
+			File file=new File("f:///mongtcsv"+".csv");
+			if(file.exists()) {
+				file.delete();
+			}
+			
+			BufferedWriter fw=new BufferedWriter(new FileWriter("f:///mongtcsv"+".csv",true));
+			while(cursor.hasNext()) {
+				Document e=cursor.next();
+				String x=e.getString("speech_filter");
+				System.out.println("speech_filter :" +x);
+				
+				fw.write(x);
+				fw.newLine();
+				
+			}
+			fw.flush();
+			fw.close();   
+		
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 	}
-	
-	
-	
 	
 }
