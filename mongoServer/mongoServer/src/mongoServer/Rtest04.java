@@ -43,13 +43,14 @@ public class Rtest04 {
 			code.addRCode("tablewordlist_result<-sort(tablewordlist_result,decreasing = T)[1:100]");
 			code.addRCode("word<-names(tablewordlist_result)");
 			code.addRCode("count<-as.numeric(tablewordlist_result)");
+			code.addRCode("windows()");
 			code.addRCode("mycolor<-brewer.pal(n=11,name =\"Set1\")");
 			code.addRCode("wordcloud(words = word,freq = count,random.order = F,colors = mycolor)\r\n");
-			
+			code.addRCode("savePlot(\"F://wordcloud.png\",type = 'png')");
 			code.endPlot();
 			caller.setRCode(code);
 			caller.runOnly();
-			code.showPlot(file);
+			//code.showPlot(file);
 			//File folder=new File("F://");
 			file.delete();
 			
