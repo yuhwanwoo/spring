@@ -43,6 +43,7 @@ public class PythonCall {
             }  
             System.out.println("========br======"+sb.toString());
             String path = resourceLoader.getResource("classpath:myflask").getURI().getPath();
+            System.out.println("path값은"+path);
             System.out.println("path:"+path);
 			BufferedReader file = null;
             if(sb.toString().contains("ok")) {
