@@ -8,6 +8,8 @@ public class indexController {
 	@RequestMapping("/index.do")
 	public String adminMain(){
 		System.out.println("어노테이션 기반");
+		System.out.println("test1231231231231");
+		
 		return "/index";
 	}
 
