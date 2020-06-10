@@ -2,47 +2,24 @@ package com.springbook.biz.board;
 
 import java.util.Date;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlTransient;
-
-import org.springframework.web.multipart.MultipartFile;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
-@XmlAccessorType(XmlAccessType.FIELD)
 public class BoardVO {
-	@XmlAttribute
 	private int seq;
 	private String title;
 	private String writer;
 	private String content;
 	private Date regDate;
 	private int cnt;
-	@XmlTransient
 	private String searchCondition;
-	@XmlTransient
 	private String searchKeyword;
-	@XmlTransient
-	private MultipartFile uploadFile;
 	
 	
-	@JsonIgnore
-	public MultipartFile getUploadFile() {
-		return uploadFile;
-	}
-	public void setUploadFile(MultipartFile uploadFile) {
-		this.uploadFile = uploadFile;
-	}
-	@JsonIgnore
 	public String getSearchCondition() {
 		return searchCondition;
 	}
 	public void setSearchCondition(String searchCondition) {
 		this.searchCondition = searchCondition;
 	}
-	@JsonIgnore
+
 	public String getSearchKeyword() {
 		return searchKeyword;
 	}
